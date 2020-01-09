@@ -61,11 +61,7 @@ end
 def reduce_to_total(source_array, starting_point)
   source_array = [1,2,3]
   
-  i = 0 
-  while i < source_array.length do 
-    total = source_array[i] + starting_point
-  
-  i += 1 
+  source_array.map {|array| 
 end
 p total
 end
