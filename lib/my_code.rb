@@ -1,4 +1,7 @@
 require 'pry'
+require 'cmath'
+#my own map-like methods
+
 def map_to_negativize(array)
   array = [1, 2, 3, -9] #given array
   negativize = [] #array where I want my value returned
@@ -41,6 +44,31 @@ def map_to_double(nums)
   p dub_nums
 end
 
+
+def map_to_square(numbers)
+  numbers = [1, 2, 3, -9]
+  squared = []
+  
+  i = 0 
+    while i < numbers.length do 
+    squared << numbers[i] * numbers[i]
+  
+  i += 1
+  end
+  p squared 
+end
+
+def reduce_to_total(source_array, starting_point)
+  source_array = [1,2,3]
+  
+  i = 0 
+  while i < source_array.length do 
+    total = source_array[i] + starting_point
+  
+  i += 1 
+end
+p total
+end
 
 
 # My Code here....
