@@ -58,12 +58,10 @@ def map_to_square(numbers)
   p squared 
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array)
   source_array = [1,2,3]
   
-  source_array.map {|array| 
-end
-p total
+  source_array.map {|array| array + array}
 end
 
 
